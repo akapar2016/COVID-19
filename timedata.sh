@@ -1,0 +1,3 @@
+csvtojson csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv > csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-ConfirmedT.json
+csvtojson csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv > csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-DeathT.json
+csvtojson csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv > csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-RecoveredT.json
