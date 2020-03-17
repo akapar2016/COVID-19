@@ -1,6 +1,8 @@
 commit_message="$1"
 
 echo pull remote git 
+git fetch upstream
+git checkout master
 git merge upstream/master
 
 echo remove old json files
